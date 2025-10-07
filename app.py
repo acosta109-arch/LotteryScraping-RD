@@ -339,4 +339,5 @@ def search_lotery20():
 	data = scrapingByName("americanas/new-york-noche",search_date, "New York Noche")
 	return JsonUFT8(data)
 
-app.run(port=port)
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=port, debug=False)
