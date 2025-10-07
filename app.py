@@ -4,7 +4,6 @@ from flask_cors import CORS, cross_origin
 import re
 import urllib.request
 from bs4 import BeautifulSoup
-from xml.etree import ElementTree as ET
 import os
 import json
 
