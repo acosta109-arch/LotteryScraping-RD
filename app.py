@@ -338,5 +338,19 @@ def search_lotery20():
 	data = scrapingByName("americanas/new-york-noche",search_date, "New York Noche")
 	return JsonUFT8(data)
 
+@app.route("/loteria-king-lottery-12pm", methods=['GET'])
+def search_lotery21():
+	search_date = request.args.get('date', datetime.datetime.now().strftime("%d-%m-%Y"))
+	
+	data = scrapingByName("king-lottery/quiniela-dia",search_date, "King Lottery 12:30")
+	return JsonUFT8(data)
+
+@app.route("/loteria-king-lottery-7pm", methods=['GET'])
+def search_lotery22():
+	search_date = request.args.get('date', datetime.datetime.now().strftime("%d-%m-%Y"))
+	
+	data = scrapingByName("king-lottery/quiniela-noche",search_date, "King Lottery 7:30")
+	return JsonUFT8(data)
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=port, debug=False)
