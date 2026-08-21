@@ -1,82 +1,23 @@
 [
-    {
-        "id": 1,
-        "name": "La Primera Día"
-    },
-    {
-        "id": 2,
-        "name": "Anguila Mañana"
-    },
-    {
-        "id": 3,
-        "name": "La Suerte 12:30"
-    },
-    {
-        "id": 4,
-        "name": "Anguila Medio Día"
-    },
-    {
-        "id": 5,
-        "name": "Quiniela Real"
-    },
-    {
-        "id": 6,
-        "name": "Florida Día"
-    },
-    {
-        "id": 7,
-        "name": "Quiniela LoteDom"
-    },
-    {
-        "id": 8,
-        "name": "New York Tarde"
-    },
-    {
-        "id": 9,
-        "name": "Gana Más"
-    },
-    {
-        "id": 10,
-        "name": "La Suerte 18:00"
-    },
-    {
-        "id": 11,
-        "name": "Anguila Tarde"
-    },
-    {
-        "id": 12,
-        "name": "Quiniela Loteka"
-    },
-    {
-        "id": 13,
-        "name": "Lotería Nacional"
-    },
-    {
-        "id": 14,
-        "name": "Anguila Noche"
-    },
-    {
-        "id": 15,
-        "name": "Quiniela Leidsa"
-    },
-    {
-        "id": 16,
-        "name": "Primera Noche"
-    },   
-    {
-        "id": 17,
-        "name": "Florida Noche"
-    },
-    {
-        "id": 18,
-        "name": "New York Noche"
-    },
-    {
-        "id": 19,
-        "name": "King Lottery 12:30"
-    },
-    {
-        "id": 20,
-        "name": "King Lottery 7:30"
-    }
+    {"id": 1, "name": "Quiniela Leidsa"},
+    {"id": 2, "name": "Lotería Nacional"},
+    {"id": 3, "name": "Gana Más"},
+    {"id": 4, "name": "la primera Día"},
+    {"id": 5, "name": "Primera Noche"},
+    {"id": 6, "name": "La Suerte 12:30"},
+    {"id": 7, "name": "La Suerte 18:00"},
+    {"id": 8, "name": "Quiniela LoteDom"},
+    {"id": 9, "name": "Anguila Mañana"},
+    {"id": 10, "name": "Anguila Medio Día"},
+    {"id": 11, "name": "Anguila Tarde"},
+    {"id": 12, "name": "Anguila Noche"},
+    {"id": 13, "name": "Quiniela Real"},
+    {"id": 14, "name": "Quiniela Loteka"},
+    {"id": 15, "name": "Florida Día"},
+    {"id": 16, "name": "Florida Noche"},
+    {"id": 17, "name": "New York Tarde"},
+    {"id": 18, "name": "New York Noche"},
+    {"id": 19, "name": "King Lottery 12:30"},
+    {"id": 20, "name": "King Lottery 7:30"},
+    {"id": 21, "name": "El Quemaito Mayor 12:00"}
 ]
