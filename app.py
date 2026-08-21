@@ -7,7 +7,7 @@ import os
 import json
 import logging
 
-# Configurar logging para ver errores en Render
+# Configurar logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -39,9 +39,10 @@ def load_html(search_date=None):
         response2.raise_for_status()
         response3.raise_for_status()
         
-        soup1 = BeautifulSoup(response1.content, "lxml")
-        soup2 = BeautifulSoup(response2.content, "lxml")
-        soup3 = BeautifulSoup(response3.content, "lxml")
+        # CAMBIO IMPORTANTE: Usar 'html.parser' en lugar de 'lxml'
+        soup1 = BeautifulSoup(response1.content, "html.parser")
+        soup2 = BeautifulSoup(response2.content, "html.parser")
+        soup3 = BeautifulSoup(response3.content, "html.parser")
                 
         blocks1 = soup1.find_all("div", class_="game-block")
         games_blocks.extend(blocks1)
@@ -77,7 +78,8 @@ def load_html_name(search_name, search_date=None):
         response = requests.get(url, timeout=TIMEOUT, headers=headers)
         response.raise_for_status()
         
-        soup = BeautifulSoup(response.content, "lxml")
+        # CAMBIO IMPORTANTE: Usar 'html.parser' en lugar de 'lxml'
+        soup = BeautifulSoup(response.content, "html.parser")
         blocks = soup.find_all("div", class_="game-block")
         games_blocks.extend(blocks)
         
